@@ -5,13 +5,13 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example</groupId>
-	<artifactId>MyCentralLogging_remoteApp</artifactId>
+	<artifactId>SpringCloud_02_MyCentralLogging_remoteApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>MyCentralLogging_remoteApp</name>
+	<name>SpringCloud_02_MyCentralLogging_remoteApp</name>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
 	</properties>
 	
 	<parent>
