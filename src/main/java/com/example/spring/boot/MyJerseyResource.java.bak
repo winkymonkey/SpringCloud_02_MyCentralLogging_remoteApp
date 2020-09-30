@@ -1,0 +1,30 @@
+package com.example.spring.boot;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+
+@Path("/remoteApp")
+@Produces(MediaType.APPLICATION_JSON)
+public class MyJerseyResource {
+	
+	
+	/**
+	 * ----------------------------------------------------
+	 * URL: http://localhost:8091/remoteApp/person
+	 * ----------------------------------------------------
+	 */
+	@GET
+	@Path("/person")
+	public Person endpoint0() {
+		Person person = new Person();
+		person.setId(101L);
+		person.setAge(30);
+		person.setFirstName("FNAME-1");
+		person.setLastName("LNAME-1");
+		return person;
+	}
+		
+}
